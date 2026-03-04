@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6fa05d4590.js" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="./index.css">
+    <title> Bookmark Landing Page </title>
+</head>
+<body>
+    <!-- header -->
+     <header>
+        <div class="logo">
+            <a href="./index.html"><img src="./assets/logo-bookmark.svg" alt="logo" class="logo-img"></a>
+        </div>
+        <div class="menu">
+            <ul class="list">
+                <li class="list-item"><a href="#features" class="list-link">Features</a></li>
+                <li class="list-item"><a href="#extensions" class="list-link">Extensions</a></li>
+                <li class="list-item"><a href="#contact" class="list-link">Contact Us</a></li>
+            </ul>
+            <button class="menu-btn">LOGIN</button>
+        </div>
+        
+         <!-- toggler icon for mobile -->
+        <div class="toggler-icon-mobile">
+            <span class="toggler-icon"></span>
+        </div>
+     </header>
+
+     <!-- menu for mobile screens -->
+    <div class="menu-mobile">
+        <ul class="list-mobile">
+            <li class="list-item-mobile"><a href="/#" class="list-link-mobile">Features</a></li>
+            <li class="list-item-mobile"><a href="/#" class="list-link-mobile">Extensions</a></li>
+            <li class="list-item-mobile"><a href="/#" class="list-link-mobile">Contact Us</a></li>
+        </ul>
+        <button class="menu-btn-mobile">LOGIN</button>
+    </div>
+    
+    <!-- close icon for mobile screens -->
+    <div class="close-icon-mobile">
+        <span></span>
+        <span></span>
+    </div>
+
+    <section class="hero-section">
+        <div class="hero-text">
+            <h1 class="hero-title">A Simple Bookmark Manager</h1>
+            <p class="hero-subtitle">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+            <div class="hero-btns"><button class="hero-btn">Get it on Chrome</button><button class="hero-btn">Get it on Firefox</button></div>
+        </div>
+        <div class="hero-img">
+            <img src="./assets/illustration-hero.svg" alt="hero image" class="hero-image">
+        </div>
+    </section>
+
+    <section class="features-section" id="features">
+        <div class="features-text">
+            <h2 class="features-title">Features</h2>
+            <p class="features-subtitle">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+        </div>
+        <div class="features-tabs">
+            <div class="features-btns">
+                <div class="features-btn features-btn-1">Simple Bookmarking</div>
+                <div class="features-btn features-btn-2">Speedy Searching</div>
+                <div class="features-btn features-btn-3">Easy Sharing</div>
+            </div>
+            <div class="feature">
+                <div class="feature-img">
+                    <img src="./assets/illustration-features-tab-1.svg" alt="tabs' images" class="feature-image">
+                </div>
+                <div class="feature-text">
+                    <h3 class="feature-title">Bookmark in one click</h3>
+                    <p class="feature-subtitle">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favorite sites.</p>
+                    <button class="feature-btn">More Info</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="extension-section" id="extensions">
+        <h2 class="extensions-title">Download the extension</h2>
+        <p class="extensions-subtitle">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
+        <div class="extensions">
+            <div class="extension">
+                <img src="./assets/logo-chrome.svg" alt="" class="extension-img">
+                <h3 class="extension-title">Add to Chrome</h3>
+                <p class="extension-subtitle">Minimum version 62</p>
+                <img src="./assets/bg-dots.svg" alt="" class="extension-line-img">
+                <button class="extension-btn">Add & Install Extension</button>
+            </div>
+            <div class="extension">
+                <img src="./assets/logo-firefox.svg" alt="" class="extension-img">
+                <h3 class="extension-title">Add to Firefox</h3>
+                <p class="extension-subtitle">Minimum version 55</p>
+                <img src="./assets/bg-dots.svg" alt="" class="extension-line-img">
+                <button class="extension-btn">Add & Install Extension</button>
+            </div>
+            <div class="extension">
+                <img src="./assets/logo-opera.svg" alt="" class="extension-img">
+                <h3 class="extension-title">Add to Opera</h3>
+                <p class="extension-subtitle">Minimum version 46</p>
+                <img src="./assets/bg-dots.svg" alt="" class="extension-line-img">
+                <button class="extension-btn">Add & Install Extension</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <h2 class="faq-title">Frequently Asked Questions</h2>
+        <p class="faq-subtitle">Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.</p>
+        <div class="accordian">
+            <div class="accordian-item">
+                <button class="accordian-btn accordian-btn-1">What is Bookmark?</button>
+                <img src="./assets/icon-arrow.svg" alt="faq1" class="accordian-icon">
+                <div class="accordian-box accordian-box-1">
+                    <p class="accordian-content">Bookmark is a free browser extension that allows you to save and organize your favorite websites in one place.</p>
+                </div>
+            </div>
+            <div class="accordian-item">
+                <button class="accordian-btn accordian-btn-2">How can I request a new browser? </button>
+                <img src="./assets/icon-arrow.svg" alt="faq2" class="accordian-icon">
+                <div class="accordian-box accordian-box-2">
+                    <p class="accordian-content">You can request a new browser by contacting us through our support page.</p>
+                </div>
+            </div>
+            <div class="accordian-item">
+                <button class="accordian-btn accordian-btn-3">Is there a mobile app?</button>
+                <img src="./assets/icon-arrow.svg" alt="faq3" class="accordian-icon">
+                <div class="accordian-box accordian-box-3">
+                    <p class="accordian-content">Yes, we have a mobile app available for both iOS and Android devices.</p>
+                </div>
+            </div>
+            <div class="accordian-item">
+                <button class="accordian-btn accordian-btn-4">What about other chromium browsers?</button>
+                <img src="./assets/icon-arrow.svg" alt="faq4" class="accordian-icon">
+                <div class="accordian-box accordian-box-4">
+                    <p class="accordian-content">We support all major chromium-based browsers including Chrome, Edge, Brave, and Vivaldi.</p>
+                </div>
+            </div>
+        </div>
+        <button class="faq-btn">More Info</button>
+    </section>
+
+    <section class="sub-section" id="contact">
+        <h4 class="sub-info">30.000+ ALREADY JOINED</h4>
+        <h3 class="sub-title">Stay up-to-date with what we're doing</h3>
+        <div class="sub-container">
+            <input type="email" class="sub-input" placeholder="Enter your email address" required>
+            <button class="sub-btn">Contact Us</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-logo">
+            <a href="./index.html"><img src="./assets/logo-bookmark-light.png" alt="" class="footer-image"></a>
+        </div>
+        <div class="footer-menu">
+            <ul class="footer-list">
+                <li class="footer-item"><a href="#" class="footer-link">Features</a></li>
+                <li class="footer-item"><a href="#" class="footer-link">Pricing</a></li>
+                <li class="footer-item"><a href="#" class="footer-link">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-socials">
+            <i class="fa-brands fa-square-facebook footer-social-icon"></i>
+            <i class="fa-brands fa-square-twitter footer-social-icon"></i>
+        </div>
+    </footer>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
